@@ -1,0 +1,9 @@
+body {margin:0;}
+
+.navi-wrapper {width: 100%; height: 46.5px; display: flex;}
+
+.navi-wrapper .menu-wrap {width:50%; display: flex;}
+.navi-wrapper .menu-wrap .menu-wp {display: flex; width: 140px;}
+
+.navi-wrapper .search-wrap {width: 50%; display: flex;}
+.navi-wrapper .search-wrap .search-wp {display: flex; margin-left: auto;}
