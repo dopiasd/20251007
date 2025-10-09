@@ -1,9 +1,17 @@
-body {margin:0;}
+html, body, h1, h2, h3, h4, h5, h6, p, div {margin: 0; padding: 0; box-sizing: border-box;} 
 
-.navi-wrapper {width: 100%; height: 46.5px; display: flex;}
+.navi-bt { align-items:center; padding: 12px 24px;}
+
+/* navi-wrapper */
+
+.navi-wrapper {width: 100%; height: 46.5px; display: flex; background-color: #000; color: white; }
 
 .navi-wrapper .menu-wrap {width:50%; display: flex;}
-.navi-wrapper .menu-wrap .menu-wp {display: flex; width: 140px;}
+.navi-wrapper .menu-wrap .menu-wp {display: flex;}
+.navi-wrapper .menu-wrap .navi-bt:hover {background-color:#bbb; color:black; cursor: pointer; }
 
 .navi-wrapper .search-wrap {width: 50%; display: flex;}
 .navi-wrapper .search-wrap .search-wp {display: flex; margin-left: auto;}
+.navi-wrapper .search-wrap .navi-bt:hover {background-color:red; cursor: pointer;}
+
+/* content-wrapper */
